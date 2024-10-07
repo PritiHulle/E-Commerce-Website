@@ -1,0 +1,96 @@
+.ci{
+    margin: 100px 150px;
+}
+.ci hr{
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+}
+.ci-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 70px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 15px;
+    font-weight: 600;
+}
+.ci-format{
+    font-size: 15px;
+    font-weight: 500;
+}
+.ci-product-icon{
+    height: 60px;
+}
+.ci-remove-icon{
+    width: 15px;
+    margin: 0px 30px;
+    cursor: pointer;
+}
+.ci-quantity{
+    width: 60px;
+    height: 50px;
+    border: 2px solid #ebebeb;
+    background: #e7e6e6;
+}
+.ci-down{
+    display: flex;
+    margin: 100px 0px;
+}
+.ci-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+gap: 30px;
+    margin-right: 200px;
+}
+.ci-total-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+.ci-total button{
+    width: 260px;
+    height: 55px;
+    outline: none;
+    border: none;
+    background: #ff5a5a;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.ci-promocode{
+    flex: 1;
+    font-size: 15px;
+    font-weight: 500;
+}
+.ci-promocode p{
+    color: #555;
+}
+.ci-promobox{
+    width: 500px;
+    margin-top: 12px;
+    padding-left: 20px;
+    height: 55px;
+    background: #eaeaea;
+}
+.ci-promobox input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 15px;
+    width: 295px;
+    height: 50px;
+}
+.ci-promobox button{
+    width: 200px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    font-size: 15px;
+    
+}
